@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>WolfHowler</title>
+    <style>
+        .btn {
+            background: #a171a7;
+            background-image: -webkit-linear-gradient(top, #a171a7, #310138);
+            background-image: -moz-linear-gradient(top, #a171a7, #310138);
+            background-image: -ms-linear-gradient(top, #a171a7, #310138);
+            background-image: -o-linear-gradient(top, #a171a7, #310138);
+            background-image: linear-gradient(to bottom, #a171a7, #310138);
+            -webkit-border-radius: 5;
+            -moz-border-radius: 5;
+            border-radius: 5px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 23px;
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background: #310138;
+            text-decoration: none;
+        }
+        .text_box {
+             width: 390px;
+             border: solid 1px #ccc;
+             height: 48px;
+             background: #5E768D;
+             background: -moz-linear-gradient(top, #546A7F 0%, #5E768D 20%);
+             background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #546A7F), color-stop(20%, #5E768D));
+             border-radius: 5px;
+             -moz-border-radius: 5px;
+             -webkit-border-radius: 5px;
+             -moz-box-shadow: 0 1px 0 #f2f2f2;
+             -webkit-box-shadow: 0 1px 0 #F2F2F2;
+             font-family: Arial;
+             font-size: 20px;
+             color: #F2F2F2;
+             text-shadow: 0 -1px 0 #334F71;
+         }
+        .text_box:focus {
+            background: #728EAA;
+            background: -moz-linear-gradient(top, #668099 0%, #728EAA 20%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #668099), color-stop(20%, #728EAA));
+            outline: 0;
+        }
+        .form_div{
+            display: inline-block;
+
+                }
+      	body{
+            width: 98vw;
+            height: 97vh;
+            background: #a171a7;
+            background-image: -webkit-linear-gradient(top, #310138, #4b0f54);
+            background-image: -moz-linear-gradient(top, #310138, #4b0f54);
+            background-image: -ms-linear-gradient(top, #310138, #4b0f54);
+            background-image: -o-linear-gradient(top, #310138, #4b0f54);
+            background-image: linear-gradient(to bottom, #310138, #4b0f54);
+            background-position: bottom center;
+            text-align: center;
+
+        }
+        .logo{
+            width:100px;
+            length:100px
+            background-image: url("Wolfhowler_logo_blue.png");
+        }
+    </style>
+</head>
+<body>
+
+
+<div>
+    <img src="Wolfhowler_logo_blue_glow.png" alt="WolfHowler" width="300" height="300" />
+</div>
+<div>
+        <form action="signup.php" method="post">
+            <input class="text_box" type="email" name="email" id="email" placeholder="Input your email to be notified of our launch" autofocus />
+            <input type="submit" class="btn" value="SIGN UP" />
+        </form>
+
+    </div>
+
+
+
+</body>
+</html>
