@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>WolfHowler</title>
-    <link rel="stylesheet" type="text/css" href="signup.css">
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
 </head>
 <body class="background">
 
